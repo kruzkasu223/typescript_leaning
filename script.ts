@@ -42,7 +42,7 @@ console.log(circ(10))
 
 */
 /* ***************************************************** */
-
+/*
 // Arrays and Objects
 
 // arrays
@@ -82,3 +82,4 @@ ninja = {
     age: 40,
     // skills: ['running'],
 };
+*/
