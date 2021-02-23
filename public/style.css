@@ -57,6 +57,7 @@ select {
     margin: 0 10px;
 }
 button {
+    cursor: pointer;
     color: white;
     border: 0;
     background: #ff2970;
