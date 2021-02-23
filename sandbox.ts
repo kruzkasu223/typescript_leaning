@@ -182,5 +182,52 @@ console.log(result);
 */
 /* ***************************************************** */
 /*
+// Type Aliasing...
 
+type StrOrNum = string | number
+type objWithName = {name: string, uid: StrOrNum}
+
+const logData = (uid: StrOrNum, item: string) => {
+    console.log(`${item} has an id of ${uid}...`)
+}
+
+const greet = (user: objWithName) => {
+    console.log(`Hello ${user.name}...`)
+}
+
+const greetAgain = (user: objWithName) => {
+    console.log(`Hello ${user.name}, Again...`)
+}
 */
+/* ***************************************************** */
+/*
+// Function Signature...
+
+// let greet: Function;
+
+// example 1
+let greet: (a: string, b: string) => void;
+
+greet = (name: string, greeting: string) => {
+    console.log(`${name} says ${greeting}`);
+}
+
+// example 2
+let calc: (a: number, b: number, c: string) => number;
+
+calc = (numOne: number, numTwo: number, action: string) => {
+    if (action === 'add') {
+        return numOne + numTwo;
+    } else {
+        return numOne - numTwo;
+    }
+}
+
+// example 3
+let logDetails: (obj: {name: string, age: number}) => void;
+
+logDetails = (ninja: {name: string, age: number}) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
+}
+*/
+/* ***************************************************** */
