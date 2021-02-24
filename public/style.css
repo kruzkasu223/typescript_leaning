@@ -65,10 +65,16 @@ button {
     min-width: 80px;
     border-radius: 4px;
 }
+button:hover {
+    filter: brightness(80%);
+}
 footer a {
     text-align: center;
     display: block;
-    color: #999;
+    color: #666;
     margin-top: 40px;
     font-size: 0.7em;
+}
+footer a:hover {
+    color: #222;
 }
