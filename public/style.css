@@ -68,13 +68,17 @@ button {
 button:hover {
     filter: brightness(80%);
 }
-footer a {
-    text-align: center;
-    display: block;
-    color: #666;
-    margin-top: 40px;
-    font-size: 0.7em;
+.link_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
 }
-footer a:hover {
-    color: #222;
+.link_wrapper a {
+    color: #666;
+    font-size: 0.7em;
+    margin: 0 2rem;
+}
+.link_wrapper a:hover {
+    color: #111;
 }
