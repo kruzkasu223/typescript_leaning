@@ -245,3 +245,86 @@ const form = document.querySelector('.new-item-form') as HTMLFormElement;
 console.log(form.children);
 */
 /* ***************************************************** */
+/*
+// Interface...
+
+// interfaces
+export interface IsPerson {
+    name: string;
+    age?: number;
+    speak(a: string): void;
+    spend(a: number): number;
+}
+
+const me: IsPerson = {
+    name: 'shaun',
+  //age: 30,
+        speak(text: string): void {
+        console.log(text);
+    },
+    spend(amount: number): number {
+        console.log('I spent ', amount);
+        return amount;
+    },
+};
+
+console.log(me);
+me.speak('hello, world');
+
+const greetPerson = (person: IsPerson): void => {
+    console.log('hello ', person.name);
+}
+
+greetPerson(me);
+//greetPerson({name: 'shaun'});
+*/
+/* ***************************************************** */
+/*
+// Comments from script.ts
+
+
+// let docOne: HasFormatter
+// let docTwo: HasFormatter
+
+// docOne = new Invoice('mario', 'creating web design', 1500)
+// docTwo = new Payment('maya', 'creating logo', 500)
+
+// let docs: HasFormatter[] = []
+// docs.push(docOne)
+// docs.push(docTwo)
+
+// console.log(docs)
+
+// const invOne = new Invoice('mario', 'making website', 1000)
+// const invTwo = new Invoice('luigi', 'making app', 1500)
+
+
+// let invoices: Invoice[] = []
+// invoices.push(invOne)
+// invoices.push(invTwo)
+
+// invoices.forEach(inv => {
+//     console.log(inv.client, inv.amount, inv.format())
+// })
+
+// invOne.client = 'kruz'
+// invTwo.amount = 1300
+// console.log(invoices)
+
+*/
+/* ***************************************************** */
+/*
+// Comments from Invoice.ts
+
+    // client: string
+    // details: string
+    // amount: number
+
+    // constructor(c: string, d: string, a: number){
+    //     this.client = c
+    //     this.details = d
+    //     this.amount = a
+    // }
+
+*/
+/* ***************************************************** */
